@@ -6,7 +6,7 @@ function rsvplist_schema() {
             'id' => array(
                 'description' => 'The primary indetifier for the record.',
                 'type' => 'serial',
-                'unsigner' => true,
+                'unsigned' => true,
                 'not null' => true,
             ),
             'uid' => array(
